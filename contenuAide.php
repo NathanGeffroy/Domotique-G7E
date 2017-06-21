@@ -7,22 +7,14 @@
 					<h2><a href="#inscription_identification" class='h2'>Inscription et identification</a></h2>
 						<ul>
 							<h4><a href="#1.1" class='h4'>Je ne parviens pas à me connecter</a></h4>
-								<p><p>
 							<h4><a href="#1.2" class='h4'>Modifier ou réinitialiser son mot de passe</a></h4>
-								<p>
 							<h4><a href="#1.3" class='h4'>Adresse mail déjà utilisée</a></h4>
-
 							<h4><a href="#1.4" class='h4'>Comment fermer un compte ?</a></h4>
-								<p>Pour fermer votre compte, veuillez nous contacter (Domisep), nous nous chargerons de la cloture de votre compte et vous ferons parvenir les exactitudes modalités, adaptées à votre profil.<p> 
 						</ul>
 					<h2><a href="#Gerer_mon_profil" class='h2'>Gérer mon profil</a></h2>
 						<ul>
 							<h4><a href="#2.1" class='h4'>Modifier mon profil</a></h4>
-								<p>Rendez-vous dans l'onglet "Mon profil", cliquez sur l'onglet "Modifier mon profil" pour effectuer des modifications sur vos informations"<p>
 							<h4><a href="#2.2" class='h4'>Ajouter un utilisateur à mon domicile</a></h4>
-								<p>Rendez-vous dans l'onglet "Mon profil", cliquez sur l'onglet "Ajouter un utilisateur" pour eajouter un nouvel utilisateur"<p>
-
-
 						</ul>
 				</div>
 
@@ -30,18 +22,14 @@
 					<h2><a href="#Gerer_ma_maison" class='h2'>Gérer ma maison</a></h2>
 						<ul>
 							<h4><a href="#3.1" class='h4'>Ajouter une pièce</a></h4>
-								<p>Pour ajouter une nouvelle pièce à votre domicile, cliquez sur "mon domicile" et sélectionnez dans le menu déroulant à gauche de votre écran la catégorie "ajouter pièce", et remplissez le champ avec le nom de votre pièce, puis cliquez sur "Ajouter".<p>
 							<h4><a href="#3.2" class='h4'>Ajouter un capteur</a></h4>
-								<p>Pour ajouter un nouveau capteur à votre domicile, cliquez sur "mon domicile" et sélectionnez dans le menu déroulant à gauche de votre écran la catégorie "ajouter capteur", choisissez la pièce d'emplacement de votre capteur, le type de capteur que vous alllez installer, puis cliquez sur "Ajouter".<p>
 							<h4><a href="#3.3" class='h4'>Informations d'une pièce ou d'un capteur</a></h4>
-								<p>Pour obtenir des informations sur une pièce ou un capteur, cliquez sur "mon domicile" et sélectionnez dans le menu déroulant à gauche de votre écran la catégorie "informations générales".<p>
 							<h4><a href="#3.4" class='h4'>Afficher mes capteurs par type ou par pièce</a></h4>
-								<p>Pour afficher vos capteurs ou vos pièces,cliquez sur "mon domicile" et sélectionnez dans le menu déroulant à gauche de votre écran la catégorie "Par type de capteur", ou "Par pièce".
 						</ul>
 					<h2><a href="#Contacter_Domisep" class='h2'>Contacter Domisep</a></h2>
 						<ul>
 							<h4><a href="#4.1" class='h4'>Contacter Domisep</a></h4>
-								<p>Pour contacter Domisep, cliquez sur "Contact", et remplissez les champs pré-faits<p>
+							<h4><a href="#4.2" class='h4'>Mon mail n'a pas été envoyé</a></h4>
 						</ul>
 				</div>
 			</div>
@@ -49,10 +37,10 @@
 			<h2 id="inscription_identification">Inscription et identification</h2>
 				<ul>		
 					<h3 id="1.1">Je ne parviens pas à me connecter</h3>
-					<p>Si vous n'arrivez pas à vous connectez, n'hésitez pas à contacter Domisep afin d'avoir plus d'informations concernant votre compte.</p><br/>
+					<p>Si vous n'arrivez pas à vous connectez, hésitez pas contact Domisep afin d'avoir plus d'information concernant votre compte.</p><br/>
 					
 					<h3 id="1.2">Modifier ou réinitialiser son mot de passe</h3>
-					<p>Si vous avez oublié votre mot de passe, sélectionnez la page Mon Profil et réinitialisez votre mot de passe en cliquant sur "modifier mon profil".</p><br/>
+					<p>Si vous avez oublié votre mot de passe, sélectionnez la page Mon Profil et réinitialiser votre mot de passe en cliquant sur "modifier mon profil".</p><br/>
 					
 					<h3 id="1.3">Adresse mail déjà utilisée</h3>
 					<p>Dans certains cas, un utilisateur déjà inscrit utilise déjà l'adresse mail entrée lors de l'inscription. Utilisez une autre adresse mail ou créez-en une nouvelle afin de valider votre inscription.</p><br/>

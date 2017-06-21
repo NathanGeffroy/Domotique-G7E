@@ -89,6 +89,14 @@ function contenu($page){
         $contenu = ob_get_clean();
         return $contenu;
     }
+
+    else if($page=='Mention'){
+        ob_start();
+        include 'contenuMentionLegal.php';
+        $contenu = ob_get_clean();
+        return $contenu;
+    }
+
 }
 ?>
 
