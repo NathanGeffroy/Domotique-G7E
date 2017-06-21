@@ -15,6 +15,13 @@ function entete($num){
         $entete = ob_get_clean();
         return $entete;
     }
+
+    else if($num==3){
+        ob_start();
+        include 'header3.php';
+        $entete = ob_get_clean();
+        return $entete;
+    }
 }
 ?>
 
@@ -51,6 +58,34 @@ function contenu($page){
     else if($page=='monProfil'){
         ob_start();
         include 'contenuMonProfil.php'; 
+        $contenu = ob_get_clean();
+        return $contenu;
+    }
+
+    else if($page=='monProfilModifier'){
+        ob_start();
+        include 'contenu_monProfilModifier.php';
+        $contenu = ob_get_clean();
+        return $contenu;
+    }
+
+    else if($page=='Accueil_admin'){
+        ob_start();
+        include 'contenu_accueil_admin.php';
+        $contenu = ob_get_clean();
+        return $contenu;
+    }
+
+    else if($page=='monProfilAdmin'){
+        ob_start();
+        include 'contenu_monProfilAdmin.php';
+        $contenu = ob_get_clean();
+        return $contenu;
+    }
+
+    else if($page=='Aide'){
+        ob_start();
+        include 'contenuAide.php';
         $contenu = ob_get_clean();
         return $contenu;
     }
