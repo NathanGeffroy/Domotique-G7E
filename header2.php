@@ -1,41 +1,31 @@
 <header id="header2">
 	<div id="conteneur">
-		<a href="Domotique.php"><img class="logo" src="Image/maison1.png" alt="logo"/></a>
+		<a href="index.php?cible=Accueil_connecte"><img class="logo" src="Image/logo.png" alt="logo"/></a>
 		<div class="nom">
-			Domisep
+			<h1>Homy</h1>
+			<p>Un produit Domisep</p>
 		</div>
 	</div>
 
 	<nav class="head2">
 		<ul>
 			<li>
-				<div class="dropdown">
-					<a href="CeMAC.php?cible=CeMAC">Accueil</a>
-					<div class="dropdown-content">
-						<a href="CeMAC.php?cible=CeMAC">CeMAC</a>
-						<a href="QuiSommesNous.php?cible=QuiSommesNous">Qui sommes-nous ?</a>
-					</div>
-				</div>
+				<a href="index.php?cible=Accueil_connecte">Accueil</a>
 			</li>
 
-			<li><a href="contact.php?cible=contact">Contact</a></li>
+			<li><a href="index.php?cible=Contact">Contact</a></li>
+
+			<li><a href="index.php?cible=Aide">Aide</a></li>
 
 			<li>
-				<div class="dropdown">
-					<a href="monDomicile.php?cible=monDomicile">Mon domicile</a>
-					<div class="dropdown-content">
-						<a href="#">Domicile</a>
-						<a href="#">Pièces</a>
-						<a href="#">Capteurs</a>
-					</div>
-				</div>
+				<a href="index.php?cible=monDomicile">Mon domicile</a>
 			</li>
+			
 			<li>
 				<div class="dropdown">
-					<a href="monProfil.php?cible=profil">Mon Profil</a>
+					<a href="index.php?cible=monProfil">Mon Profil</a>
 					<div class="dropdown-content">
-						<a href="#">Paramètres</a>
-						<a href="Connexion.php?cible=deconnexion">Déconnexion</a>
+						<a href="index.php?cible=deconnexion">Déconnexion</a>
 					</div>
 				</div>
 			</li>
