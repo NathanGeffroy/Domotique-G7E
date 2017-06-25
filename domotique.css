@@ -883,6 +883,10 @@ select
 
 }
 
+textarea{
+	height: 120vw;
+}
+
 #utilisateurs p
 {
 	color:  #F4D03F;
