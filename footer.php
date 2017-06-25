@@ -1,6 +1,6 @@
 <footer>
 	<div id="copyright">
-		<h1>G7Enterprise</h1>
+		<h1>Domisep</h1>
 		<p>Tous droits réservés</p>
 		<h1>Adresse</h1>
 		<p>10 Rue de Vanves 92130 ISSY LES MOULINEAUX</p>
