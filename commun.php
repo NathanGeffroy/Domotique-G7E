@@ -27,7 +27,12 @@ function entete($num){
 
 <?php
 function contenu($page){
-    if($page=='Accueil_connecte'){
+    if($page=='ModifMentionsLegales'){
+        ob_start();
+        include 'contenu_ModifMentionsLegales.php';
+        $contenu = ob_get_clean();
+        return $contenu;
+    }else if($page=='Accueil_connecte'){
         ob_start();
         include 'contenuAccueil.php';
         $contenu = ob_get_clean();
