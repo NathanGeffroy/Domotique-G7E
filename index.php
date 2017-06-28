@@ -11,7 +11,13 @@
                 AjouteAdmin($bdd);
                 include("Vue/monProfilAdmin.php");
             }else if($_GET['cible'] == 'mention'){
-                include('Vue/MentionLegal.php');
+                if(isset($_GET['mod'])){
+                    include("Modele/utilisateurs.php");
+                    ajouteMention($bdd);
+                    include("Vue/monProfilAdmin.php");
+                }else{
+                    include('Vue/MentionLegal.php');
+                }
             }else if($_GET['cible'] == 'Accueil_connecte'){
                 include("Vue/Accueil_connecte.php");
 
