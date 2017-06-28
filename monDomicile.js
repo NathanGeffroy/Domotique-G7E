@@ -11,11 +11,18 @@ function monDomicile(type,str,idPiece,nb){
 }
 
 function supprimeCapteur(){
-	showUser(this.id,"Capteur");
+	var test = confirm("Confirmer la suppression");
+	if(test){
+		showUser(this.id,"Capteur");
+	}
+	
 }
 
 function supprimePiece(){
-	showUser(this.id.substring(6),"Piece");
+	var test = confirm("Confirmer la suppression");
+	if(test){
+		showUser(this.id.substring(6),"Piece");
+	}
 }
 
 function AjouteLigne(type,nb,ext,col){
@@ -88,7 +95,6 @@ function showUser(str,type){
     xmlhttp.onreadystatechange = function (){
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200){
             window.location.reload();
-            alert("Supprimer");
         }
     }
     if(type=="Capteur"){
@@ -123,7 +129,7 @@ function affichePiece2(str,nbr){
 function afficheCapteur(nb,nbr,str,don,IdCapteur,color){
 	if (str=='Luminosité') {
 		var typeCapteur="luminosite";
-		if(donnee="N/A"){
+		if(don=="?"){
 			var valeur="<span class='description_capteur'>"+don+"</span>";
 		}else{
 			var valeur='<form><input type="range" value="'+don+'" class="range"></form>';

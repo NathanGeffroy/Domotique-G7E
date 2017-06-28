@@ -111,5 +111,11 @@
     function AjouteAdmin($bdd){
         $bdd->exec('UPDATE Personnes SET Administrateur="'.$_POST['choix'].'" WHERE (Nom="'.$_POST['nom'].'") AND (Prenom="'.$_POST['prenom'].'") AND (AdresseMail="'.$_POST['email'].'")');
     }
+
+    function ajouteMention($bdd){
+        $bdd->exec('DELETE FROM Site WHERE idSite>0');
+        $contenu=str_replace('"',"'",$_POST['mentionleg']);
+        $bdd->exec('INSERT INTO Site(TitrePage,contenu) VALUES("MentionLegal","'.$contenu.'")');
+    }
     
 ?>
