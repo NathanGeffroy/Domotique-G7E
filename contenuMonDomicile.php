@@ -22,17 +22,16 @@ $ch,
 CURLOPT_URL, "http://projets-tomcat.isep.fr:8080/appService?ACTION=GETLOG&TEAM=007E");
 curl_setopt($ch, CURLOPT_HEADER, FALSE); curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE); $data = curl_exec($ch);
 curl_close($ch);
-echo "Raw Data:<br />";
-echo("$data");
+
 
 $data_tab = str_split($data,33);
-echo "Tabular Data:<br />";
+
 for($i=0, $size=count($data_tab); $i<$size-1; $i++){
 	$trame = $data_tab[1];
 	list($t, $o, $r, $c, $n, $v, $a, $x, $year, $month, $day, $hour, $min, $sec) = sscanf($trame,"%1s%4s%1s%1s%2s%4s%4s%2s%4s%2s%2s%2s%2s%2s");
 	$pc=(float)$v/10
 	;
-	echo("<br />$t,$o,$r,$c,$n,$pc%,$a,$x,$year,$month,$day,$hour,$min,$sec =$v%<br />");
+	
 }
 
 
@@ -128,21 +127,23 @@ if(isset($_GET['type']) && $_GET['type']=='general' or isset($_GET['cible']) && 
 				foreach  ($reponse as $row) {
 					$Capteur[$j]=$row['Nom'];
 					$id=$row['IdCapteur'];
-					$donne="N/A";
-					
+					$donne="?";
+					$couleur="red";
+
 					$valeurs = donnee($bdd,$id);
 					
 					foreach  ($valeurs as $rows) {
 						$donne=$rows['Donnee'];
+						$couleur="green";
 					}
-					$donne=$pc/10;
 					?>
 					var str='<?php echo $Capteur[$j];?>';
 					var nbr=<?php echo $j;?>;
 					var don='<?php echo $donne;?>';
 					var IdCapteur=<?php echo $id;?>;
+					var couleur='<?php echo $couleur;?>';
 
-					afficheCapteur(nb,nbr,str,don,IdCapteur,"green");
+					afficheCapteur(nb,nbr,str,don,IdCapteur,couleur);
 					<?php
 					$j++;
 				}?>
