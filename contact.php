@@ -4,6 +4,8 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="Style/domotique2.css">
 		<title>G7Entreprise</title>
+        <link rel="stylesheet" href="Style/domotique1.css">
+		<title>Domisep</title>
     </head>
 
 <body>

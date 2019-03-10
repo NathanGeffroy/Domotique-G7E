@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="Styles/domotique.css">
-		<title>G7Enterprise</title>
+		<title>Domisep</title>
     </head>
 
 <body>

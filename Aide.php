@@ -1,7 +1,7 @@
 <?php
-	$titre = 'Mon Domicile';
+	$titre = 'Aide';
     $entete = entete(2);
-    $contenu = contenu('monDomicile');
+    $contenu = contenu('Aide');
     $pied = pied();
 
     include 'gabarit.php';

@@ -7,7 +7,7 @@ session_start();
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/php/App/Matthieu/Git/Style/Domotique.css">
-		<title>G7Entreprise</title>
+		<title>Domisep</title>
     </head>
 
 <body>
