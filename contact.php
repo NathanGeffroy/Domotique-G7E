@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="Style/domotique2.css">
+		<title>G7Entreprise</title>
         <link rel="stylesheet" href="Style/domotique1.css">
 		<title>Domisep</title>
     </head>
@@ -44,7 +46,7 @@
 			</div>
 
 			<div id="team">
-				<h1>L'equipe</h1>
+				<h1>L'équipe</h1>
 				<div class="tête">
 					<figure>
 						<img src="Image/bebe.jpg" alt="Nathan Geffroy">
@@ -52,7 +54,7 @@
 					</figure>
 
 					<figure>
-						<img src="Image/bebe.jpg" alt="Halil Meral">
+						<img src="Image/Halil.png" alt="Halil Meral">
 						<figcaption>Halil Meral Co-fondateur</figcaption>
 					</figure>
 
